@@ -2,8 +2,11 @@ package keywords;
 
 public class Father {
 
+    String field = "Information Technology";
     int age = 19;
     String name= "Usman";
+
+    public void Father (){}
 
         public Father (int age){
             this.age=age;
@@ -12,8 +15,14 @@ public class Father {
 
         public void ITfield(){
            // this.name = name;
-            System.out.println("abcd");
+            System.out.println("Developement");
         }
 
+        public Father (String field){
+
+        this.field= field;
+            System.out.println(field);
+
+        }
 
         }
