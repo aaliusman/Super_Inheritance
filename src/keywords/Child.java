@@ -25,4 +25,11 @@ public class Child extends Father {
         super.ITfield();
 
     }
-}
+
+    public void gitMethod(){
+        System.out.println("to test git branch");
+    }
+
+    public void gitFunction(){
+        System.out.println("to test git branch");
+}}
